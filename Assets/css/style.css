@@ -150,9 +150,12 @@ grid-template-areas: 'page-section page-section page-section';
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  border: 5px solid red;
+ 
   
   
 }
+
 .portfolio-img:hover{
   opacity: 1;
 }
@@ -163,6 +166,8 @@ grid-template-areas: 'page-section page-section page-section';
   float: left;
   width: 33.33%;
   padding: 5px;
+  border: 5px solid red;
+  
 }
 
 
@@ -170,7 +175,83 @@ grid-template-areas: 'page-section page-section page-section';
   opacity: 1;
 }
 
+.horiseon{
+  position: relative;
   
+}
+.text-box1{
+  position: absolute;
+  bottom: -400px;
+  left: 195px;
+  font-size: large;
+  font-weight: bold;
+    color: black;
+    text-align:right;
+    border: 5px solid red;
+    background-color: grey;
+    opacity: 0.9;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.place-holder2{
+  position: relative;
+  
+}
+.text-box2{
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  font-size: large;
+  font-weight: bold;
+    color: black;
+    text-align:right;
+    border: 5px solid red;
+    background-color: grey;
+    opacity: 0.9;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .place-holder3{
+    position: relative;
+    
+  }
+  .text-box3{
+    position: absolute;
+    top: 1590px;
+    left: 645px;
+    font-size: large;
+    font-weight: bold;
+      color: black;
+      text-align:right;
+      border: 5px solid red;
+      background-color: grey;
+      opacity: 0.9;
+      padding-left: 20px;
+      padding-right: 20px;
+      
+    }
+    .place-holder4{
+      position: relative;
+      
+    }
+    .text-box4{
+      position: absolute;
+      top: 1590px;
+      left: 1279px;
+      font-size: large;
+      font-weight: bold;
+        color: black;
+        text-align:right;
+        border: 5px solid red;
+        background-color: grey;
+        opacity: 0.9;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+      }
+
+
 
 /* Clearfix (clear floats) */
 .page-section-project::after {
@@ -253,7 +334,82 @@ grid-template-areas: 'page-section page-section page-section';
       padding: 5px;
      }
      
-
+     .horiseon{
+      position: relative;
+      
+    }
+    .text-box1{
+      position: absolute;
+      bottom: -400px;
+      left: 195px;
+      font-size: large;
+      font-weight: bold;
+        color: black;
+        text-align:right;
+        border: 5px solid red;
+        background-color: grey;
+        opacity: 0.9;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    .place-holder2{
+      position: relative;
+      
+    }
+    .text-box2{
+      position: absolute;
+      top: 200px;
+      left: 10px;
+      font-size: large;
+      font-weight: bold;
+        color: black;
+        text-align:right;
+        border: 5px solid red;
+        background-color: grey;
+        opacity: 0.9;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+      }
+      .place-holder3{
+        position: relative;
+        
+      }
+      .text-box3{
+        position: absolute;
+        top: 1590px;
+        left: 645px;
+        font-size: large;
+        font-weight: bold;
+          color: black;
+          text-align:right;
+          border: 5px solid red;
+          background-color: grey;
+          opacity: 0.9;
+          padding-left: 20px;
+          padding-right: 20px;
+          
+        }
+        .place-holder4{
+          position: relative;
+          
+        }
+        .text-box4{
+          position: absolute;
+          top: 1590px;
+          left: 1279px;
+          font-size: large;
+          font-weight: bold;
+            color: black;
+            text-align:right;
+            border: 5px solid red;
+            background-color: grey;
+            opacity: 0.9;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+          }
+    
 
 
 }
