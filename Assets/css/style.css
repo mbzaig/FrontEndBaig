@@ -68,7 +68,7 @@
 .Navigation ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   list-style-type: none;
 }
 
@@ -114,14 +114,7 @@ p{
   background-color: ivory;
   opacity: 0.7;
 }
-/*
-.page-wrapper{
-  display: grid;
-  grid-row: 1fr 1fr 1fr;
-  grid-column: 1fr;
-grid-template-areas: 'page-section page-section page-section';
-  grid-gap: 20px;
-}*/
+
 .page-section{
   display: flex;
   flex-flow: column wrap;
@@ -150,7 +143,7 @@ grid-template-areas: 'page-section page-section page-section';
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border: 5px solid red;
+  border:2px solid red;
  
   
   
@@ -166,11 +159,9 @@ grid-template-areas: 'page-section page-section page-section';
   float: left;
   width: 33.33%;
   padding: 5px;
-  border: 5px solid red;
+  border: 2px solid red;
   
 }
-
-
 .place-img:hover{
   opacity: 1;
 }
@@ -187,7 +178,7 @@ grid-template-areas: 'page-section page-section page-section';
   font-weight: bold;
     color: black;
     text-align:right;
-    border: 5px solid red;
+    border: 2px solid red;
     background-color: grey;
     opacity: 0.9;
     padding-left: 20px;
@@ -200,12 +191,12 @@ grid-template-areas: 'page-section page-section page-section';
 .text-box2{
   position: absolute;
   top: 200px;
-  left: 10px;
+  left: 8px;
   font-size: large;
   font-weight: bold;
     color: black;
     text-align:right;
-    border: 5px solid red;
+    border: 2px solid red;
     background-color: grey;
     opacity: 0.9;
     padding-left: 20px;
@@ -219,12 +210,12 @@ grid-template-areas: 'page-section page-section page-section';
   .text-box3{
     position: absolute;
     top: 1590px;
-    left: 645px;
+    left: 642px;
     font-size: large;
     font-weight: bold;
       color: black;
       text-align:right;
-      border: 5px solid red;
+      border: 2px solid red;
       background-color: grey;
       opacity: 0.9;
       padding-left: 20px;
@@ -238,12 +229,12 @@ grid-template-areas: 'page-section page-section page-section';
     .text-box4{
       position: absolute;
       top: 1590px;
-      left: 1279px;
+      left: 1278px;
       font-size: large;
       font-weight: bold;
         color: black;
         text-align:right;
-        border: 5px solid red;
+        border: 2px solid red;
         background-color: grey;
         opacity: 0.9;
         padding-left: 20px;
@@ -323,72 +314,38 @@ grid-template-areas: 'page-section page-section page-section';
     
     .portfolio-img {
      height: 180px;
-     width: auto;
+     width: 80%;
+     margin-left: auto;
+      margin-right: auto;
+     border: 1px solid red;
     }
     
     .place-img {
-      height: 120px;
-      width: 50%;
+      height: 100px;
+      width: 33%;
       margin-left: auto;
       margin-right: auto;
-      padding: 5px;
+      padding: 1px;
+      border: 1px solid red;
      }
      
-     .horiseon{
-      position: relative;
-      
-    }
+     
     .text-box1{
-      position: absolute;
-      bottom: -400px;
-      left: 195px;
-      font-size: large;
-      font-weight: bold;
-        color: black;
-        text-align:right;
-        border: 5px solid red;
-        background-color: grey;
-        opacity: 0.9;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-    .place-holder2{
-      position: relative;
       
-    }
+      display: none;
+      
+      }
+    
+      
     .text-box2{
-      position: absolute;
-      top: 200px;
-      left: 10px;
-      font-size: large;
-      font-weight: bold;
-        color: black;
-        text-align:right;
-        border: 5px solid red;
-        background-color: grey;
-        opacity: 0.9;
-        padding-left: 20px;
-        padding-right: 20px;
+      display: none;
+    
         
       }
-      .place-holder3{
-        position: relative;
-        
-      }
+      
       .text-box3{
-        position: absolute;
-        top: 1590px;
-        left: 645px;
-        font-size: large;
-        font-weight: bold;
-          color: black;
-          text-align:right;
-          border: 5px solid red;
-          background-color: grey;
-          opacity: 0.9;
-          padding-left: 20px;
-          padding-right: 20px;
-          
+      display: none;
+              
         }
         .place-holder4{
           position: relative;
@@ -396,18 +353,8 @@ grid-template-areas: 'page-section page-section page-section';
         }
         .text-box4{
           position: absolute;
-          top: 1590px;
-          left: 1279px;
-          font-size: large;
-          font-weight: bold;
-            color: black;
-            text-align:right;
-            border: 5px solid red;
-            background-color: grey;
-            opacity: 0.9;
-            padding-left: 20px;
-            padding-right: 20px;
-            
+          display: none;
+                   
           }
     
 
